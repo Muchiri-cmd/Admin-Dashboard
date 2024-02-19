@@ -21,6 +21,18 @@ body{
     padding:2em;
     gap:1em;
 }
+.header.row-1,.header.row-2{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+}
+input{
+    background-color:aliceblue;
+    border-radius:10px;
+    height:3em;
+    width:50em; 
+}
 .nav-links>ul>li{
     margin-bottom:2em;
 }
