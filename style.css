@@ -20,18 +20,39 @@ body{
     display:grid;
     padding:2em;
     gap:1em;
+    border-bottom:2px solid rgb(219,219,219);
 }
+.header.row-1{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+.col-1{
+    display: flex;
+    align-items: center;
+    margin-right:auto;
+    width:100%;
+}
+.col-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2em;
+}
+/*
 .header.row-1,.header.row-2{
     display:flex;
-    justify-content: space-around;
     align-items: center;
     flex:1;
-}
+}*/
+
 input{
     background-color:aliceblue;
     border-radius:10px;
     height:3em;
-    width:50em; 
+    width:min(80%,65em);
+    border:0;
+    padding:0.5em 1.5em;
+    margin-left:2.5em;
 }
 .nav-links>ul>li{
     margin-bottom:2em;
